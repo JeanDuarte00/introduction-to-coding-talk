@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <style>
+        body {
+            align-content: center;
+            text-align: center;
+        }
+        #gameArea {
+            display: block;
+            margin: 0 auto;
+            background: #dfdede;
+            border-radius: 20px;
+        }
+        .button {
+            background-color: aliceblue;
+            cursor: pointer;
+            border-radius: 10px;
+            margin: 5px;
+            width: 200px;
+            height: 200px;
+            font-size: 150px;
+        }
+        .scoreArea {
+            margin: 20px;
+            background-color: #dfdede;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 id="title">Tic Tac Toe - Jogo da Velha</h1>
+    
+    <div  id="gameArea" width="600" height="600">
+        
+        <div id="table">
+            <div id="row1">
+                <button class="button" id="11" type="button"></button>
+                <button class="button" id="12" type="button"></button>
+                <button class="button" id="13" type="button"></button>
+            </div>
+            <div id="row2">
+                <button class="button" id="21" type="button"></button>
+                <button class="button" id="22" type="button"></button>
+                <button class="button" id="23" type="button"></button>
+            </div>
+            <div id="row3">
+                <button class="button" id="31" type="button"></button>
+                <button class="button" id="32" type="button"></button>
+                <button class="button" id="33" type="button"></button>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="dist/bundle.js"></script>
+</body>
+</html>

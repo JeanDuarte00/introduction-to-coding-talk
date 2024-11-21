@@ -50,9 +50,6 @@ export class Game {
             gameArea.style.pointerEvents = "none";
 
             this.currentPlayer.increaseScore();
-            const playerScore = document.getElementById('player'+this.currentPlayer.getSymbol()) as HTMLDivElement;
-            playerScore.textContent = this.currentPlayer.getSymbol() + " Score: " + this.currentPlayer.getScore();
-            playerScore.style.backgroundColor = "green";
 
         }
     }

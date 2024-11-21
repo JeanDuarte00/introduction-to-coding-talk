@@ -7,5 +7,4 @@
 
 - npm init -y
 - npm install typescript ts-loader webpack webpack-cli --save-dev 
-- npm run build# introduction-to-programming-talk
-# introduction-to-coding-talk
+- npm run build
